@@ -1,0 +1,6 @@
+<launch>
+    <!-- Nodes for starting turtlesim-->
+    <node pkg="turtlesim" type="turtlesim_node" name="simulation"/>
+    <!-- Go to Goal -->
+    <node pkg="turtlesim_simulations" type="go_to_goal.py" name="Go_to_Goal"/>
+</launch>
